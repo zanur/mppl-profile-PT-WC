@@ -35,3 +35,11 @@ Route::get('/cat', function () { return view('cat'); } );
 
 // Admin
 Route::get('/admin-home', function () { return view('admin-home'); } );
+
+Route::get('/admin-product', function () { return view('admin-product'); } );
+
+Route::get('/admin-career', function () { return view('admin-career'); } );
+
+Route::get('/admin-add-product', function () { return view('admin-add-product'); } );
+
+Route::get('/admin-feedback', function () { return view('admin-feedback'); } );
